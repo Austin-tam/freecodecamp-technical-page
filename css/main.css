@@ -300,3 +300,7 @@ a {
 a:hover {
   color: black;
 }
+
+.tab{
+  padding-left: 3em;
+}
