@@ -304,3 +304,7 @@ a:hover {
 .tab{
   padding-left: 3em;
 }
+
+code {
+  background-color: #f2f2f2;
+}

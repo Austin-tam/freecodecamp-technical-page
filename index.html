@@ -33,6 +33,7 @@
 
           <a href="#introduction" class="sidenav-item py-3 border-top border-bottom nav-link nav-item">Introduction</a>
           <a href="#syntax" class="sidenav-item py-3 border-bottom nav-link nav-item">Syntax</a>
+          <a href="#variables" class="sidenav-item py-3 border-bottom nav-link nav-item">Variables</a>
           <a href="#control_flow" class="sidenav-item py-3 border-bottom nav-link nav-item">Control Flow</a>
           <a href="#functions" class="sidenav-item py-3 border-bottom nav-link nav-item">Functions</a>
           <a href="#libraries" class="sidenav-item py-3 border-bottom nav-link nav-item">Libraries</a>
@@ -40,14 +41,14 @@
       </nav>
     </div>
 
-    <div class="col-10">
+    <article class="col-10">
       <main id="main-doc">
         <section class="main-section" id="introduction">
           <header>
             <h1>Introduction</h1>
           </header>
 
-          <div class="tab">
+          <article class="tab">
             <p>
               Python is an interpreted, object-oriented programming language. Created by Guido van Rossum and released in 1991,
               Python is one of the most popular choices for backend development, being employed by websites such as Instagram, Uber, Dropbox, and many more.
@@ -60,7 +61,7 @@
               <li><b>Portable</b>: Python can run on many different hardware platforms and shares the same interface across all of these platforms</li>
               <li><b>Large Standard Library</b>: Python has a large standard library which provides a set of many useful built-in modules and functions for a variety of uses</li>
             </ul>
-          </div>
+          </article>
         </section>
 
         <section class="main-section" id="syntax">
@@ -68,32 +69,62 @@
             <h1>Syntax</h1>
           </header>
 
-          <div class="tab">
+          <article class="tab">
             <p>
               The definition of syntax is "the arrangement of words and phrases to create well-formed sentences in a language".
               We can apply this definition to programming languages as well. Syntax, in the context of a programming language,
-              refers to the structure of the language, and the arrangement of words and phrases.
-            </p>
-            <p>
-              Although Python was originally developed as a teaching language, its easy-to-use nature and clean syntax has appealed to beginners and experts as well.
+              refers to the structure of the language, and the arrangement of words and phrases. Although Python was originally
+              developed as a teaching language, its easy-to-use nature and clean syntax has appealed to beginners and experts as well.
               Python uses English words in places where other languages would use punctuation.
             </p>
 
             <p>For example, take the following Java code:</p>
-            <code>
-              int[] values = new int[100];<br>
-              for (int i=0; i&lt;values.length; i++) { }
-            </code>
-          </div>
+
+            <div class="tab">
+              <code>
+                int[] values = new int[100];<br>
+                for (int i=0; i&lt;values.length; i++) { }
+              </code>
+            </div><br>
+
+            <p>Now compare it to the following Python code:</p>
+            <div class="tab">
+              <code>
+                values = [0] * 10 <br>
+                for i in range(0, len(values), 1):
+              </code>
+            </div><br>
+
+            <p>
+              As you can tell, the for loop declaration in Python is "easier" to read since it uses more English words and one can instinctively understand
+              what is happening. Whereas with the Java code, one would have to look through each section of the for loop to understand each part.
+            </p>
+
+            <p>
+              Another example is Python's use of <code>Not</code> in place of <code>!</code> that many other languages use. With a larger code base,
+              finding and reading the keyword <code>Not</code> is easier than <code>!</code> which makes it harder to miss and harder to make errors.
+            </p>
+          </article>
+        </section>
+
+        <section class="main-section" id="variables">
+          <header>
+            <h1>Variables</h1>
+          </header>
+
+          <article class="tab">
+
+          </article>
         </section>
 
         <section class="main-section" id="control_flow">
           <header>
           <h1>Control Flow</h1>
           </header>
-          <div class="tab">
+
+          <article class="tab">
             <p class="yes">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          </div>
+          </article>
         </section>
 
         <section class="main-section" id="functions">
@@ -101,9 +132,9 @@
             <h1>Functions</h1>
           </header>
 
-          <div class="tab">
+          <article class="tab">
             <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.s</p>
-          </div>
+          </article>
         </section>
 
         <section class="main-section" id="libraries">
@@ -111,9 +142,9 @@
             <h1>Libraries</h1>
           </header>
 
-          <div class="tab">
+          <article class="tab">
 
-          </div>
+          </article>
         </section>
 
         <section class="main-section" id="references">
@@ -121,9 +152,9 @@
             <h1>References</h1>
           </header>
 
-          <div class="tab">
-            
-          </div>
+          <article class="tab">
+
+          </article>
         </section>
       </main>
     </div>
