@@ -40,7 +40,7 @@
       </nav>
     </div>
 
-    <article class="col-10">
+    <div class="col-10">
       <main id="main-doc">
         <section class="main-section" id="introduction">
           <header>
@@ -114,7 +114,54 @@
           <article class="tab">
             <p>
               In programming, variables are used to store data values. Python is a strongly and dynamically typed language. Strong meaning that the type
-              of a value does not change in unexpected ways, and dynamic meaning that Python checks the types of values at runtime rather than at compile time. 
+              of a value does not change in unexpected ways, and dynamic meaning that Python checks the types of values at runtime rather than at compile time.
+              Because of this, variables in Python code are very easy to create and initialize.
+            </p><br>
+
+            <p>For example, a simple variable declaration can look like this:</p>
+
+            <div class="tab">
+              <code>
+                x = 0
+              </code>
+            </div><br>
+
+            <p>
+              This tells Python to create an integer object with a value of 0 and have the variable "x" point to that object.
+              Similarly, when you declare strings like this:
+            </p>
+
+            <div class="tab">
+              <code>
+                y = "text"
+              </code>
+            </div><br>
+
+            <p>Python creates a string object with the value of "text" and has the variable "y" point to that object.</p>
+
+            <p>
+              Python has very little restrictions in terms of variable names. They can be any length and can consist of any combination of uppercase and
+              lowercase letters (A-Z, a-z), digits (0-9), and the underscore character (_). The main restriction is that the first character of a variable
+              name cannot be a digit. The only other restriction is that variable names in Python cannot be the same as any of the keywords that Python
+              has reserved for special functions. These keywords include:
+            </p>
+            
+            <ul>
+              <li>False</li>
+              <li>True</li>
+              <li>if</li>
+              <li>None</li>
+              <li>not</li>
+              <li>and</li>
+              <li>def</li>
+              <li>for</li>
+              <li>break</li>
+              <li>while</li>
+              <li>try</li>
+            </ul>
+
+            <p>To see a full list of the Python's 33 reserved keywords,
+              <a href="https://realpython.com/python-variables/#reserved-words-keywords" target="_blank">click this link</a>.
             </p>
 
           </article>
