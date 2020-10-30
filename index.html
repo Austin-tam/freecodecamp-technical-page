@@ -25,18 +25,18 @@
 
 <body>
   <div class="row h-100">
-    <div class="col-2 border-right fix-padding">
+    <div class="col-2 border-right border-dark fix-padding">
       <nav class="sidenav" id="navbar">
           <header>
             <p class="navbar-brand sidenav-header">Python Documentation</p>
           </header>
 
-          <a href="#introduction" class="sidenav-item py-3 border-top border-bottom nav-link nav-item">Introduction</a>
-          <a href="#syntax" class="sidenav-item py-3 border-bottom nav-link nav-item">Syntax</a>
-          <a href="#variables" class="sidenav-item py-3 border-bottom nav-link nav-item">Variables</a>
-          <a href="#control_flow" class="sidenav-item py-3 border-bottom nav-link nav-item">Control Flow</a>
-          <a href="#functions" class="sidenav-item py-3 border-bottom nav-link nav-item">Functions</a>
-          <a href="#libraries" class="sidenav-item py-3 border-bottom nav-link nav-item">Libraries</a>
+          <a href="#introduction" class="sidenav-item py-3 border-dark border-top border-bottom nav-link nav-item">Introduction</a>
+          <a href="#syntax" class="sidenav-item py-3 border-dark border-bottom nav-link nav-item">Syntax</a>
+          <a href="#variables" class="sidenav-item py-3 border-dark border-bottom nav-link nav-item">Variables</a>
+          <a href="#control_flow" class="sidenav-item py-3 border-dark border-bottom nav-link nav-item">Control Flow</a>
+          <a href="#functions" class="sidenav-item py-3 border-dark border-bottom nav-link nav-item">Functions</a>
+          <a href="#libraries" class="sidenav-item py-3 border-dark border-bottom nav-link nav-item">Libraries</a>
       </nav>
     </div>
 
@@ -180,14 +180,46 @@
 
             <ul>
               <li>The <code>if</code> statement</li>
-              <li>The <code>while</code> statement</li>
               <li>The <code>For</code> loop</li>
+              <li>The <code>while</code> statement</li>
               <li>The <code>break</code> and <code>continue</code> statements</li>
             </ul>
 
-            <p>There are many other control flow statements but these are the ones we will be focusing on in this section</p>
+            <p>There are many other control flow statements but these are the ones we will be focusing on in this section.</p>
 
-            <p class="h4">The if Statement</p>
+            <p>
+              The <code>if</code> statement is one of the most common control flow statements frequently used in programming. In Python, the full if
+              statement looks like this:
+            </p>
+
+            <div class="tab">
+              <code>if . . elif . . else</code>
+            </div><br>
+
+            <p>
+              With this statement, the program will execute code if a logical condition is true. If false, the program will check the "elif",
+              short for "else if", conditional statements and if true, will execute that code. If none of the conditional statements return true, it will
+              execute the code in the "else" block. The conditional statements must evaluate to be true or false for the if statement to work properly, and
+              there can be any number of elif statements. Python also does not have a <code>switch . . case</code> statement like many other
+              languages use.
+            </p><br>
+
+            <p>
+              Another commonly used control flow statement is the <code>for</code> loop. This statement is used to loop through a block of code, as long
+              as the condition of the for loop is true. To create a for loop in Python, you would do something similar to this:
+            </p>
+
+            <div class="tab">
+              <code>for . . in . . else</code>
+            </div><br>
+
+            <p>
+              the <code>for</code> part of the statement starts the loop. Between the <code>for</code> and the <code>in</code> section is a variable
+              that will be used to iterate through a range. This range is defined after the <code>in</code> portion of the loop. For example if the range
+              is <code>range(0,5)</code> then the loop will iterate through the numbers 0, 1, 2, 3, and 4, and execute the block of code for each of those
+              numbers. The <code>else</code> portion of the for loop is optional. If the program breaks out of the loop or the loop is finished, the
+              program will check for any code in an <code>else</code> block and execute it if it is there.
+            </p>
           </article>
         </section>
 
