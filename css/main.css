@@ -262,8 +262,8 @@ textarea {
 }
 
 .sidenav {
-  position: sticky;
-  width: 100%;
+  position: fixed;
+  width: 16.2%;
   height: 100%;
   z-index: 1;
   overflow-x: hidden;
@@ -290,6 +290,7 @@ textarea {
   text-align: center;
   width: 100%;
   font-size: 25px;
+  padding-right: 10px;
 }
 
 a {
@@ -307,4 +308,8 @@ a:hover {
 
 code {
   background-color: #f2f2f2;
+}
+
+#main-doc {
+  padding-left: 20px;
 }
