@@ -236,6 +236,37 @@
               <code>for</code> loop, and will execute when the conditional of the <code>while</code> loop is false.
             </p>
 
+            <p>
+              The last control flow statements in this documentation are the <code>break</code> and <code>continue</code> keywords. The <code>break</code>
+              keyword is very useful because it allows the program to prematurely break out of a loop if it needs to. The <code>break</code> keyword is
+              used by itself on its own line and does not require any other parameters. When it is used, the program will break out of the current loop
+              that it is in, and continue to execute the rest of the code down the program.
+            </p>
+
+            <p>
+              The <code>continue</code> keyword is similar to the <code>break</code> keyword in that they both control the flow of loops. When you use
+              the <code>continue</code> keyword, it tells the program to continue to the next step of the loop. For example, take the following code:
+            </p>
+
+            <div class="tab">
+              <code>for x in range(0,5,1):</code><br>
+              &emsp;
+              <code>if (x % 2 == 0):</code><br>
+              &emsp;&emsp;
+              <code>print("found an even number")</code><br>
+              &emsp;&emsp;
+              <code>continue</code><br>
+              &emsp;
+              <code>print("found an odd number")</code>
+            </div><br>
+
+            <p>
+              You will see that we have a <code>for</code> loop from 0 to 5, with a step of 1. Inside the <code>for</code> loop, we have an <code>if</code>
+              statement with a conditional statement that will be true when the remainder of x/2 is equal to 0; i.e if the number is even. When x is an
+              even number, the program will print out the string "found an even number" and then the <code>continue</code> keyword will force the loop to
+              step to the next iteration of the loop.
+            </p>
+
           </article>
         </section>
 
