@@ -283,7 +283,50 @@
           </header>
 
           <article class="tab">
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.s</p>
+            <p>
+              Functions in Python are a very powerful tool that assist every aspect of a program including readability, scalability, cleanliness of code,
+              and organization. Functions should not be confused with methods. The main difference between the two are that methods are functions that
+              are a part of a class, while a function does not have this restriction.
+            </p>
+
+            <p>Creating functions in Python are very easy. The first line of the function looks similar to this:</p>
+
+            <div class="tab">
+              <code>
+                def function_name(parameter_1, parameter_2):
+              </code>
+            </div><br>
+
+            <p>
+              Where def is the keyword that starts the function, followed by the name of the function. The function may also have optional parameters
+              that the program can pass into. After definition the function, the tab-indented code will be executed every time the main program calls
+              the function. Returning a value at the end of a function is optional and the function will work whether there is a return line or not.
+            </p>
+
+            <p>
+              There are very few restrictions on the names of functions, which are similar to variable names. Namely, they can contain both uppercase
+              and lowercase characters, numbers, and underscores. Also similarly to variables, function names cannot be the same as reserved keywords
+              and reserved functions. They also cannot start with a number. Other than these restrictions, any combination of characters, numbers, and
+              underscores are allowed.
+            </p>
+
+            <p>
+              The next topic to comment on about function names is naming convention. Although any combination of characters is allowed, there are
+              generally accepted rules that programmers use to keep function names universal. Some of these rules include:
+            </p>
+
+            <div class="tab">
+              <ul>
+                <li>lowercase, with words separated by underscores to improve readability</li>
+                <li>mixedCase is allowed only if it is the style that is being used, to stay consistent</li>
+                <li>always use self for the first argument to instance methods</li>
+                <li>always use cls for the first argument to class methods</li>
+                <li>
+                  if a function name clashes with a reserved keyword or function, it is generally accepted convention to add an underscore to the
+                  end of the function name, rather than abbreviating or altering the spelling
+                </li>
+              </ul>
+            </div>
           </article>
         </section>
 
