@@ -315,18 +315,17 @@
               generally accepted rules that programmers use to keep function names universal. Some of these rules include:
             </p>
 
-            <div class="tab">
-              <ul>
-                <li>lowercase, with words separated by underscores to improve readability</li>
-                <li>mixedCase is allowed only if it is the style that is being used, to stay consistent</li>
-                <li>always use self for the first argument to instance methods</li>
-                <li>always use cls for the first argument to class methods</li>
-                <li>
-                  if a function name clashes with a reserved keyword or function, it is generally accepted convention to add an underscore to the
-                  end of the function name, rather than abbreviating or altering the spelling
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li>Lowercase, with words separated by underscores to improve readability</li>
+              <li>mixedCase is allowed only if it is the style that is being used, to stay consistent</li>
+              <li>Always use self for the first argument to instance methods</li>
+              <li>Always use cls for the first argument to class methods</li>
+              <li>
+                If a function name clashes with a reserved keyword or function, it is generally accepted convention to add an underscore to the
+                end of the function name, rather than abbreviating or altering the spelling
+              </li>
+            </ul>
+
           </article>
         </section>
 
@@ -336,7 +335,35 @@
           </header>
 
           <article class="tab">
-            <p></p>
+            <p>
+              Much like other languages, Python has a large, built-in, standard library that is available for use. To use this library, you use
+              Python's keyword <code>import</code>. The way import works in Python is similar to Java's import, in that the interpreter looks
+              through the standard library for the module that is being imported. If not found, it searches through the directories listed in
+              <code>sys.path</code>. One can create their own custom modules and save it in <code>sys.path</code> to be imported and used in later
+              programs.
+            </p>
+
+            <p>
+              In Python's standard library, there are a resourceful amount of modules that help fulfill a wide variety of programming needs. Some of
+              the popular modules include:
+            </p>
+
+            <ul>
+              <li>math - containing many math functions such as ceiling, floor, square root, exponent, logarithm, etc</li>
+              <li>csv - used or CSV file reading and writing</li>
+              <li>tkinter - Python's interface to the Tk GUI toolkit</li>
+              <li>datetime - basic date and time types</li>
+              <li>random - used to generate pseudo-random numbers</li>
+            </ul>
+
+            <p>
+              There are many more modules in the standard library that provide support for topics like data compression, cryptography, concurrent
+              execution, etc, which you can view by clicking on the link below:
+            </p>
+
+            <a href="https://docs.python.org/3/library/" target="_blank">Click here to view more modules</a>
+
+            
           </article>
         </section>
       </main>
